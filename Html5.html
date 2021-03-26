@@ -1,0 +1,67 @@
+<html>
+<head>
+ <title>Formulário HTML5</title>
+<Style>
+ main{
+ padding: 50px;
+ width: 50%;
+ margin: 0 auto;
+ }
+ label{
+ color: blue;
+ }
+ .full{
+ width: 100%
+ }
+ } .altura{
+ height: 50px
+ }
+ .Fundo {
+  background-image: url(https://wallpaperaccess.com/full/1851783.jpg);
+  background-position: justify;
+ }
+</style>
+</head>
+<body class="Fundo">
+<main style="background-color:white">
+ <form>
+   <fieldset>
+  <legend>Crie uma Conta</legend>
+ <label for="nome">Nome Completo:</label> <br><br>
+ <input class="full" type="text" id="nome" name="nome" placeholder="Seu nome ..." required><br>
+ <br>
+ <label for="data">Data de nascimento:</label><br>
+ <input type="Date" name="data" id="data"><br>
+ <br>
+ <label for="cpf">CPF:</label><br>
+ <input class="full" type="number" id="cpf" name="cpf" required><br>
+ <br>
+ <label for="telefone">Telefone:</label><br>
+ <input class="full" type="tel" id="tel" name="tel" required><br>
+ <br>
+ <label for="email">E-mail:</label><br>
+ <input class="full" type="email" id="email" name="email" required><br>
+ <br>
+ <label for="senha1">Crie uma senha:</label><br><br>
+ <input type="password" class="full" id="senha1" name="senha1" required maxlength="10"><br>
+ <br>
+ <label for="senha2">Repita a senha:</label><br><br>
+ <input class="full" type="password" id="senha2" name="senha2" required maxlength="10"><br>
+ <br>
+ <label for="numero">Numero do cartão de crédito:</label><br>
+ <input class="full"type="number" name="numero" id="numero" ><br>
+ <br>
+ <label for="mês">Vencimento do cartão:</label><br>
+ <input type="Month" name="mês" id="mês"><br>
+ <br>
+ <label for="mensagem">Digite sua mensagem:</label><br><br>
+ <textarea class="full altura" id="mensagem" name="mensagem" autofocus>Digite sua mensagem ...
+ </textarea><br>
+ <br><br>
+ <input type="submit" value="Cadastrar">
+ <input type="reset" value="Limpar">
+ </fieldset>
+ </form>
+ </main>
+</body>
+</html>
